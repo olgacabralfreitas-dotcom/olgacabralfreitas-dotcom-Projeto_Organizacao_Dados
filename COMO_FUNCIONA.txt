@@ -1,29 +1,16 @@
+Plaintext
 ========================================================================
-MANUAL DE UTILIZADOR E OPERAÇÃO (COMO_FUNCIONA.txt)
-ENTREGÁVEL: VALIDAÇÃO DE AUTONOMIA OPERACIONAL
+ROADMAP TECNOLÓGICO E METAS FUTURAS (FUTURO_ORGANIZAÇÃO.txt)
+ENTREGÁVEL: PLANEAMENTO E MELHORIA CONTÍNUA
 ========================================================================
 
-1. OBJETIVO DO DOCUMENTO
+1. METAS TECNOLÓGICAS PARA O PRÓXIMO CICLO
 ------------------------------------------------------------------------
-Este manual serve de guia passo a passo para permitir que qualquer colega
-ou utilizador execute de forma 100% autónoma a infraestrutura de dados,
-sem necessidade de apoio direto ou intervenção no teclado.
+- Integração de alertas automáticos para validação de erros nos dados de entrada.
+- Migração dos relatórios estáticos para dashboards dinâmicos e interativos.
+- Implementação de rotinas de integração contínua (CI/CD) para testes automáticos.
 
-2. ESTRUTURA DO AMBIENTE E REPOSITÓRIO
+2. PLANO DE MANUTENÇÃO E ESCALABILIDADE
 ------------------------------------------------------------------------
-- /data: Diretório destinado ao depósito dos ficheiros de entrada (CSV/XLSX).
-- /scripts: Contém os scripts automáticos de processamento e validação.
-- /reports: Pasta onde são gerados automaticamente os relatórios finais.
-
-3. INSTRUÇÕES DE EXECUÇÃO (PASSO A PASSO)
-------------------------------------------------------------------------
-Passo 1: Colocar os ficheiros de dados atualizados na pasta /data.
-Passo 2: Executar o script principal localizado em /scripts/main.py.
-Passo 3: Verificar a consola para confirmação de 'Processamento Concluído'.
-Passo 4: Consultar os relatórios e métricas geradas na pasta /reports.
-
-4. TESTE DE AUTONOMIA
-------------------------------------------------------------------------
-O presente manual foi testado e validado por um colega de equipa sem 
-qualquer assistência direta no teclado, garantindo a clareza e a 
-replicabilidade do procedimento.
+- Revisão trimestral da estrutura de pastas e permissões do repositório.
+- Formação contínua de novos elementos da equipa com base no manual de autonomia.

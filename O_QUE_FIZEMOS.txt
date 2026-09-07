@@ -1,7 +1,7 @@
 Plaintext
 ========================================================================
 RELATÓRIO DE EXECUÇÃO E VALOR CRIADO (O_QUE_FIZEMOS.txt)
-ENTREGÁVEL: COMPILAÇÃO DE MÉTRICAS E GANHOS DE EFICIÊNCIA
+ENTREGÁVEL: COMPILAÇÃO DE MÉTRICAS E GANHOS DE EFICIÊNCIA.
 ========================================================================
 
 1. RESUMO EXECUTIVO

@@ -15,7 +15,7 @@ RELATÓRIO DE EXECUÇÃO E ATIVIDADES REALIZADAS (UFCD 10797)
   * Identificação de tendências históricas de praticantes e faturação em Portugal.
   * Análise do impacto da pandemia (quebra de ~40% em 2020) e retoma pós-COVID.
   * Demonstração da correlação de -0,95 entre o nível de restrições sanitárias 
-    e o volume de receitas/membros.
+    e o volume de receitas/membros..
 - Visualização e Reporte:
   * Geração de gráficos de linha e barras comparativas por período.
   * Exportação de dashboards em Excel estruturados para tomada de decisão.

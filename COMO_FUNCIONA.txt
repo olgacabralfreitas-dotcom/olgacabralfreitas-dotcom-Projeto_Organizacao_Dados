@@ -1,7 +1,7 @@
 Plaintext
 ========================================================================
 ROADMAP TECNOLÓGICO E METAS FUTURAS (FUTURO_ORGANIZAÇÃO.txt)
-ENTREGÁVEL: PLANEAMENTO E MELHORIA CONTÍNUA
+ENTREGÁVEL: PLANEAMENTO E MELHORIA CONTÍNUA.
 ========================================================================
 
 1. METAS TECNOLÓGICAS PARA O PRÓXIMO CICLO

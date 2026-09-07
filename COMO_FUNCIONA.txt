@@ -16,7 +16,7 @@ Exploratória de Dados (EDA) do setor do fitness em Portugal:
   * evolucao_mercado_fitness_portugal_2015_2026.xlsx: Dataset mestre com 
     métricas de mercado, indicadores pandémicos (COVID-19) e projeções.
 - /scripts: Scripts Python/Pandas desenvolvidos para limpeza, tratamento 
-  e geração automática de gráficos (Matplotlib/Seaborn).
+  e geração automática de gráficos (Matplotlib/Seaborn)..
 - /reports: Relatórios exportados em Excel com formatação profissional.
 
 2. LÓGICA DE TRATAMENTO E ANÁLISE DE DADOS

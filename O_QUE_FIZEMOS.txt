@@ -1,0 +1,27 @@
+Plaintext
+========================================================================
+PROJETO: EVOLUÇÃO DO MERCADO DO FITNESS EM PORTUGAL (2015 - 2026)
+RELATÓRIO DE EXECUÇÃO E ATIVIDADES REALIZADAS (UFCD 10797)
+========================================================================
+
+1. ETAPAS EXECUTADAS
+------------------------------------------------------------------------
+- Configuração do Repositório: Estruturação inicial no GitHub para controlo
+  de versões do projeto de organização de dados.
+- Limpeza e Tratamento de Dados:
+  * Processamento de ficheiros heterogéneos (CSV e Excel).
+  * Imputação/tratamento de valores nulos e estruturação de séries temporais.
+- Análise Exploratória de Dados (EDA):
+  * Identificação de tendências históricas de praticantes e faturação em Portugal.
+  * Análise do impacto da pandemia (quebra de ~40% em 2020) e retoma pós-COVID.
+  * Demonstração da correlação de -0,95 entre o nível de restrições sanitárias 
+    e o volume de receitas/membros.
+- Visualização e Reporte:
+  * Geração de gráficos de linha e barras comparativas por período.
+  * Exportação de dashboards em Excel estruturados para tomada de decisão.
+
+2. PROBLEMAS RESOLVIDOS E RESULTADOS
+------------------------------------------------------------------------
+- Resolução de ambiguidades nos esquemas dos ficheiros de dados.
+- Automatização da pipeline de análise via scripts Python modulares em Jupyter.
+- Consolidação com sucesso de todos os objetivos práticos do módulo UFCD 10797.

@@ -1,6 +1,6 @@
 # 📊 Projeto: Consolidação e Organização da Infraestrutura de Dados
 > **Módulo:** UFCD 10797 – Organização e Consolidação de Dados  
-> **Repositório:** `Projeto_Organizacao_Dados`
+> **Repositório:** `Projeto_Organizacao_Dados`.
 
 ---
 

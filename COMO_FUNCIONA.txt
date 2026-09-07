@@ -1,0 +1,31 @@
+Plaintext
+========================================================================
+PROJETO: EVOLUÇÃO DO MERCADO DO FITNESS EM PORTUGAL (2015 - 2026)
+MANUAL DE FUNCIONAMENTO DA INFRAESTRUTURA DE DADOS (UFCD 10797)
+========================================================================
+
+1. ESTRUTURA DO REPOSITÓRIO E FLUXO DE DADOS
+------------------------------------------------------------------------
+O repositório 'Projeto_Organizacao_Dados' organiza a pipeline de Análise 
+Exploratória de Dados (EDA) do setor do fitness em Portugal:
+
+- /data: Contém os ficheiros brutos e processados (.csv e .xlsx).
+  * fitness.csv e fitness 2.csv: Dados transacionais de utilizadores (membros,
+    visitas, modalidades e check-ins).
+  * Mercado_fitness_2.csv: Dados de agregação nacional de praticantes e faturação.
+  * evolucao_mercado_fitness_portugal_2015_2026.xlsx: Dataset mestre com 
+    métricas de mercado, indicadores pandémicos (COVID-19) e projeções.
+- /scripts: Scripts Python/Pandas desenvolvidos para limpeza, tratamento 
+  e geração automática de gráficos (Matplotlib/Seaborn).
+- /reports: Relatórios exportados em Excel com formatação profissional.
+
+2. LÓGICA DE TRATAMENTO E ANÁLISE DE DADOS
+------------------------------------------------------------------------
+- Normalização e Validação: Verificação de valores omissos (NaN), correção 
+  de tipos de dados (datas e métricas financeiras).
+- Segmentação Temporal: Classificação dos dados em 3 fases estruturais:
+  * Pré-COVID (2015 - 2019): Fase de expansão acelerada e modelo Low-Cost.
+  * COVID (2020 - 2021): Contração do mercado e transição para o digital.
+  * Pós-COVID (2022 - 2026P): Recuperação em 'V' e consolidação do modelo híbrido.
+- Cálculo de Indicadores: Aferição automática de variações percentuais anuais, 
+  médias por período e correlação (ex.: índice de restrições vs. faturação).

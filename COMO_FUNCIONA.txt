@@ -1,31 +1,29 @@
-Plaintext
 ========================================================================
-PROJETO: EVOLUÇÃO DO MERCADO DO FITNESS EM PORTUGAL (2015 - 2026)
-MANUAL DE FUNCIONAMENTO DA INFRAESTRUTURA DE DADOS (UFCD 10797)
+MANUAL DE UTILIZADOR E OPERAÇÃO (COMO_FUNCIONA.txt)
+ENTREGÁVEL: VALIDAÇÃO DE AUTONOMIA OPERACIONAL
 ========================================================================
 
-1. ESTRUTURA DO REPOSITÓRIO E FLUXO DE DADOS
+1. OBJETIVO DO DOCUMENTO
 ------------------------------------------------------------------------
-O repositório 'Projeto_Organizacao_Dados' organiza a pipeline de Análise 
-Exploratória de Dados (EDA) do setor do fitness em Portugal:
+Este manual serve de guia passo a passo para permitir que qualquer colega
+ou utilizador execute de forma 100% autónoma a infraestrutura de dados,
+sem necessidade de apoio direto ou intervenção no teclado.
 
-- /data: Contém os ficheiros brutos e processados (.csv e .xlsx).
-  * fitness.csv e fitness 2.csv: Dados transacionais de utilizadores (membros,
-    visitas, modalidades e check-ins).
-  * Mercado_fitness_2.csv: Dados de agregação nacional de praticantes e faturação.
-  * evolucao_mercado_fitness_portugal_2015_2026.xlsx: Dataset mestre com 
-    métricas de mercado, indicadores pandémicos (COVID-19) e projeções.
-- /scripts: Scripts Python/Pandas desenvolvidos para limpeza, tratamento 
-  e geração automática de gráficos (Matplotlib/Seaborn)..
-- /reports: Relatórios exportados em Excel com formatação profissional.
-
-2. LÓGICA DE TRATAMENTO E ANÁLISE DE DADOS
+2. ESTRUTURA DO AMBIENTE E REPOSITÓRIO
 ------------------------------------------------------------------------
-- Normalização e Validação: Verificação de valores omissos (NaN), correção 
-  de tipos de dados (datas e métricas financeiras).
-- Segmentação Temporal: Classificação dos dados em 3 fases estruturais:
-  * Pré-COVID (2015 - 2019): Fase de expansão acelerada e modelo Low-Cost.
-  * COVID (2020 - 2021): Contração do mercado e transição para o digital.
-  * Pós-COVID (2022 - 2026P): Recuperação em 'V' e consolidação do modelo híbrido.
-- Cálculo de Indicadores: Aferição automática de variações percentuais anuais, 
-  médias por período e correlação (ex.: índice de restrições vs. faturação).
+- /data: Diretório destinado ao depósito dos ficheiros de entrada (CSV/XLSX).
+- /scripts: Contém os scripts automáticos de processamento e validação.
+- /reports: Pasta onde são gerados automaticamente os relatórios finais.
+
+3. INSTRUÇÕES DE EXECUÇÃO (PASSO A PASSO)
+------------------------------------------------------------------------
+Passo 1: Colocar os ficheiros de dados atualizados na pasta /data.
+Passo 2: Executar o script principal localizado em /scripts/main.py.
+Passo 3: Verificar a consola para confirmação de 'Processamento Concluído'.
+Passo 4: Consultar os relatórios e métricas geradas na pasta /reports.
+
+4. TESTE DE AUTONOMIA
+------------------------------------------------------------------------
+O presente manual foi testado e validado por um colega de equipa sem 
+qualquer assistência direta no teclado, garantindo a clareza e a 
+replicabilidade do procedimento.

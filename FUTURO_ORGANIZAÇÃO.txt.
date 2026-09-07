@@ -1,0 +1,20 @@
+========================================================================
+PROJETO: EVOLUÇÃO DO MERCADO DO FITNESS EM PORTUGAL (2015 - 2026)
+VISÃO RETROSPETIVA E MELHORIA CONTÍNUA
+========================================================================
+
+1. SUGESTÕES DE MELHORIA E ESCALABILIDADE
+------------------------------------------------------------------------
+- Automatização via CI/CD: Implementar GitHub Actions para executar
+  automaticamente os scripts de validação de dados a cada atualização.
+- Integração de Dashboards Interativos: Migração das visualizações estáticas 
+  para ferramentas interativas (ex.: Power BI, Streamlit ou Plotly).
+- Ampliação da Base de Dados: Incorporar dados regionais por concelho e 
+  métricas em tempo real sobre retenção de clientes no modelo híbrido.
+
+2. PRÓXIMAS ETAPAS E MANUTENÇÃO
+------------------------------------------------------------------------
+- Atualização anual do dataset com dados reais de 2025/2026 para validar 
+  as projeções efetuadas.
+- Manutenção do padrão de documentação do repositório para garantir a 
+  sua reutilização em futuros módulos ou contextos académicos/profissionais.

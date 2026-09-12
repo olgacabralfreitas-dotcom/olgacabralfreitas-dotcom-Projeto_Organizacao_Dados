@@ -1,24 +1,20 @@
-# 📊 Projeto: Consolidação e Organização da Infraestrutura de Dados
+# 📊 Projeto: Consolidação da Infraestrutura Cloud e Continuidade do Negócio
 > **Módulo:** UFCD 10797 – Organização e Consolidação de Dados  
-> **Repositório:** `Projeto_Organizacao_Dados`.
+> **Repositório:** `Projeto_Organizacao_Dados`
 
 ---
 
-## 📌 Visão Geral do Projeto
-Este repositório marca a **conclusão do percurso prático do módulo UFCD 10797**. O projeto focou-se na estruturação, automação e consolidação de uma infraestrutura de dados eficiente, garantindo a autonomia dos utilizadores operacionais e a criação de valor mensurável para a gestão.
+## 📌 Visão Geral
+Este repositório consolida a infraestrutura de dados em nuvem no **Neon PostgreSQL Cloud**, integrando rotinas automatizadas de auditoria de incidentes, planos de manutenção operacional e protocolos formais de transparência para a Direção.
 
 ---
 
-## 📂 Estrutura do Repositório e Documentação Final
+## 📂 Ficheiros de Continuidade e Resiliência
 
 ```text
 Projeto_Organizacao_Dados/
 │
-├── 📁 data/                                  # Ficheiros e fontes de dados
-├── 📁 scripts/                               # Scripts automáticos de processamento
-├── 📁 reports/                               # Relatórios e saídas geradas
-│
-├── 📄 COMO_FUNCIONA.txt                      # Manual do utilizador e teste de autonomia
-├── 📄 O_QUE_FIZEMOS.txt                      # Relatório de valor para a Gestão (Métricas de tempo)
-├── 📄 FUTURO_ORGANIZAÇÃO.txt                 # Roadmap tecnológico e metas do próximo ciclo
-└── 📄 README.md                              # Documentação consolidada do repositório
+├── 📄 00_CONTINUIDADE_E_INCIDENTES.sql  # Tabela de log (tb_log_incidentes), monitorização pg_stat_activity e VACUUM ANALYZE
+├── 📄 CALENDARIO_OPERACIONAL.txt         # Plano de manutenção diário, semanal e mensal na consola Neon
+├── 📄 PROTOCOLO_SLA.txt                  # Guião oficial de comunicação de indisponibilidade e SLA
+└── 📄 README.md                          # Documentação principal da infraestrutura

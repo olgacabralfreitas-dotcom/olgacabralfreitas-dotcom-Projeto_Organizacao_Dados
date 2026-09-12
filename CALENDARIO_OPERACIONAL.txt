@@ -1,0 +1,22 @@
+========================================================================
+PLANO E CALENDÁRIO OPERACIONAL DE MANUTENÇÃO CLOUD
+AMBIENTE: NEON POSTGRESQL CONSOLE
+========================================================================
+
+1. ROTINAS DIÁRIAS (MONITORIZAÇÃO CONTÍNUA)
+------------------------------------------------------------------------
+- Verificação do estado das ligações ativas via `pg_stat_activity`.
+- Validação automática dos pontos de restauração PITR (Point-in-Time Recovery).
+- Verificação do consumo de compute/storage no painel do Neon Cloud Console.
+
+2. ROTINAS SEMANAIS (OTIMIZAÇÃO E AUDITORIA)
+------------------------------------------------------------------------
+- Execução do comando `VACUUM ANALYZE;` para reorganização de espaço e atualização de estatísticas de pesquisa.
+- Revisão e auditoria dos registos na tabela `tb_log_incidentes`.
+- Limpeza e eliminação de branches temporários criados para testes.
+
+3. ROTINAS MENSAIS (REVISÃO E GOVERNAÇÃO DE DADOS)
+------------------------------------------------------------------------
+- Teste prático de restauração de dados a partir de um branch de segurança.
+- Análise de índices e consultas lentas para otimização contínua de performance.
+- Revisão das permissões de acesso e utilizadores na consola Neon.

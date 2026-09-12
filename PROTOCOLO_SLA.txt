@@ -1,0 +1,34 @@
+========================================================================
+PROTOCOLO OFICIAL DE COMUNICAÇÃO DE INCIDENTES E SLA
+GUIÃO DE TRANSPARÊNCIA E COMUNICAÇÃO COM A DIREÇÃO
+========================================================================
+
+1. NÍVEIS DE SEVERIDADE E TEMPOS DE RESPOSTA (SLA)
+------------------------------------------------------------------------
+- CRÍTICA (Indisponibilidade Total): Notificação imediata em < 15 min. SLA de Resolução: < 2 horas.
+- ALTA (Degradação Severa de Performance): Notificação em < 30 min. SLA de Resolução: < 4 horas.
+- MÉDIA (Indisponibilidade Parcial / Oscilação): Notificação em < 2 horas. SLA de Resolução: < 12 horas.
+- BAIXA (Dúvidas ou Testes Planeados): Notificação na rotina semanal. SLA de Resolução: < 48 horas.
+
+2. CANAIS E FLUXO DE COMUNICAÇÃO
+------------------------------------------------------------------------
+- Canal Primário: E-mail direto para a Direção e Equipa Operacional.
+- Canal Secundário: Alerta via sistema de monitorização integrado.
+
+3. MODELO DE COMUNICAÇÃO DE INCIDENTE (TEMPLATE)
+------------------------------------------------------------------------
+Assunto: [ALERTA DE INCIDENTE - STATUS] - Sistema Neon PostgreSQL Cloud
+------------------------------------------------------------------------
+Exma. Direção,
+
+Informamos que foi detetada uma ocorrência no ambiente de base de dados:
+- Serviço Afetado: [Nome do Serviço/Tabela]
+- Nível de Severidade: [CRÍTICA / ALTA / MÉDIA / BAIXA]
+- Impacto Operacional: [Descrição sumária do impacto]
+- Ações em Curso: [Ações imediatas de mitigação/restauração]
+- Previsão de Normalização: [Horário previsto]
+
+Atualizaremos a situação assim que houver novos desenvolvimentos.
+
+Atenciosamente,
+Engenharia de Dados Cloud

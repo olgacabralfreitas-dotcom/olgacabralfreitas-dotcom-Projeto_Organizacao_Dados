@@ -1,33 +1,22 @@
-# 📊 Projeto: Consolidação da Infraestrutura Cloud e Continuidade do Negócio
+# 📊 Projeto: Consolidação Global da Infraestrutura Cloud (Neon PostgreSQL)
 > **Módulo:** UFCD 10797 – Organização e Consolidação de Dados  
 > **Repositório:** `Projeto_Organizacao_Dados`
 
 ---
 
 ## 📌 Visão Geral
-Este repositório consolida a infraestrutura de dados em nuvem no **Neon PostgreSQL Cloud**, integrando rotinas automatizadas de auditoria de incidentes, planos de manutenção operacional e protocolos formais de transparência para a Direção.
+Este repositório documenta a transição, consolidação e encerramento operacional do projeto de migração para a nuvem no **Neon PostgreSQL Cloud**. A arquitetura foi desenhada para garantir resiliência, alta disponibilidade, autonomia operacional e conformidade com as melhores práticas de governação de dados.
 
 ---
 
-## 📂 Ficheiros de Continuidade e Resiliência
+## 📂 Estrutura de Ficheiros do Repositório
 
 ```text
 Projeto_Organizacao_Dados/
 │
-├── 📄 00_CONTINUIDADE_E_INCIDENTES.sql  # Tabela de log (tb_log_incidentes), monitorização pg_stat_activity e VACUUM ANALYZE
-├── 📄 CALENDARIO_OPERACIONAL.txt         # Plano de manutenção diário, semanal e mensal na consola Neon
-├── 📄 PROTOCOLO_SLA.txt                  # Guião oficial de comunicação de indisponibilidade e SLA
-└── 📄 README.md                          # Documentação principal da infraestrutura
-
-## ⚙️ Componentes da Infraestrutura Cloud
-
-### 1. Monitorização e Auditoria (`00_CONTINUIDADE_E_INCIDENTES.sql`)
-* **Criação da estrutura de auditoria:** Tabela `tb_log_incidentes` para registo rigoroso de ocorrências.
-* **Análise em tempo real:** Consulta à visualização de sistema `pg_stat_activity` para monitorização de conexões ativas.
-* **Manutenção:** Execução do comando `VACUUM ANALYZE` para otimização de storage e atualização de estatísticas de pesquisa.
-
-### 2. Manutenção Preventiva (`CALENDARIO_OPERACIONAL.txt`)
-* **Planeamento operacional:** Definição rigorosa de rotinas diárias, semanais e mensais executadas no Neon Cloud Console para garantir a saúde da base de dados.
-
-### 3. Governação e Transparência (`PROTOCOLO_SLA.txt`)
-* **Níveis de serviço e comunicação:** Definição de matrizes de SLA e disponibilização de um *template* oficial para comunicação transparente de incidentes à Direção.
+├── 📄 v_handoff_sistema.sql          # Vista SQL de handoff e inventário do estado do sistema
+├── 📄 limpeza_e_encerramento.sql     # Script de encerramento, otimização final e registo de transição
+├── 📄 00_CONTINUIDADE_E_INCIDENTES.sql # Tabela de audit log, monitorização e manutenção
+├── 📄 CALENDARIO_OPERACIONAL.txt     # Rotinas diárias, semanais e mensais de manutenção no Neon Console
+├── 📄 PROTOCOLO_SLA.txt              # Matriz de SLA e guiões oficiais de comunicação com a Direção
+└── 📄 README.md                      # Documentação consolidada da infraestrutura
